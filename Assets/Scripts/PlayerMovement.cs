@@ -17,7 +17,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator mAnimator;
 
-    private CapsuleCollider2D mCollider;
+   // private CapsuleCollider2D mCollider;
+
+    private BoxCollider2D  mCollider;
 
     private bool IsJumping ;
 
@@ -27,7 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
         mRb = GetComponent<Rigidbody2D>();
         mAnimator = GetComponent<Animator>();
-        mCollider = GetComponent<CapsuleCollider2D>();
+         mCollider = GetComponent<BoxCollider2D>();
+       // mCollider = GetComponent<CapsuleCollider2D>();
 
 
 

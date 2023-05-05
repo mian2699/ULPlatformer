@@ -50,6 +50,9 @@ TagManager:
   - name: Platforms
     uniqueID: 359434787
     locked: 0
+  - name: Boss
+    uniqueID: 3459779187
+    locked: 0
   - name: Props
     uniqueID: 2301352533
     locked: 0
